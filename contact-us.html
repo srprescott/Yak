@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yak Store</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact-us.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <section class="header" id="about">
+                <div class="ban"> <img class="banner" src="images/banner-4.jpg"> </div>
+                <div class="topnav" id="myTopnav"> <a href="index.html">Yak Home</a> <a href="dust-wall.html">Dust Wall</a> <a href="drill-press.html">Drill Press</a> <a href="ex-tool.html">Extention Tool</a> <a href="roll-cleaner.php">Paint Roll Cleaner</a> <a href="contact-us.html">Contact Us</a>
+                    <p class="this-page">Contact Us</p> <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a> </div>
+            </section>
+            <section class="one">
+                <div class="area-one">
+                    <div class="intro">
+                        <p class="p-heading">Questions? Want to place a bulk order? Contact us!</p>
+                        <div class="p-body orange">
+                            <div class="contact">
+                                <h2>Gregory Prescott</h2>
+                                <h3>Inventor / Owner</h3>
+                                <h4><a href="mailto:gprescott@buyyak.com">gprescott@buyyak.com </a></h4> </div>
+                            <div class="contact">
+                                <h2>Sara Prescott</h2>
+                                <h3>Customer Support</h3>
+                                <h4><a href="mailto:sara@buyyak.com">sara@buyyak.com</a></h4> </div>
+                        </div>
+                        <div class="blue">
+                            <h2>Want to hear a real human voice? Call us!</h2>
+                            <h3><a href="tel:7274600573">(727) 460-0573</a></h3> </div>
+                        <p class="p-heading">Check Us Out On:</p>
+                        <div class="social"> <a href="https://www.facebook.com/buytheyak/"><i class="fa fa-facebook fa-4x"></i></a> <a href="https://twitter.com/Buy_Yak"><i class="fa fa-twitter-square fa-4x"></i></a> <a href="mailto:sales@buyyak.com"><i class="fa fa-envelope-square fa-4x"></i></a> </div> <img class="image" src="images/the-yak.jpg"> </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p class="copywrite">Prescott, G, inventor; Terracon Industries. Bar clamp / spreader. United States patent 91,156,138 B1. Designed &amp; Coded by <a href="http://www.redlockdev.com">Red Lock Dev.</a></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                document.querySelector('.this-page').style.display = "none";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

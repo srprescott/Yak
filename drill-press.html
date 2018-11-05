@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yak Store</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="drill-press.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <section class="header" id="about">
+                <div class="ban"> <img class="banner" src="images/banner-4.jpg"> </div>
+                <div class="topnav" id="myTopnav"> <a href="index.html">Yak Home</a> <a href="dust-wall.html">Dust Wall</a> <a href="drill-press.html">Drill Press</a> <a href="ex-tool.html">Extention Tool</a> <a href="roll-cleaner.php">Paint Roll Cleaner</a> <a href="contact-us.html">Contact Us</a>
+                    <p class="this-page">Drill Press</p> <a href="javascript:void(0);" style="font-size:20px" class="icon" onclick="myFunction()">&#9776;</a> </div>
+            </section>
+            <section class="one">
+                <div class="area-one">
+                    <div class="intro">
+                        <p class="p-heading">Meet The YAK Drill Press</p>
+                        <p class="p-body">The YAK Drill Press creates a long or short distance, portable drill press that gives you smooth and consistent pressure while making it easy to control the drilling speed. This makes it great for all different types of material and different job conditions, in all the trades. It is great for any job site or home improvement project.</p> <img class="image" src="images/drill-press/press-1.jpg">
+                        <p class="p-body">The YAK Drill Press makes drilling through difficult materials and in tough positions easy. It is build to fit into areas that are typically too small or difficult to maneuver your equipment.</p>
+                    </div>
+                </div>
+                <div class="area-two">
+                    <p class="p-heading">See YAK Drill Press in action!</p>
+                    <div class="video-area">
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/nnZe-mwUoJ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <p class="caption"> </p>
+                        </div>
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/tiMyUSS7pRc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <p class="caption"> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-now">
+                    <p class="p-heading-two">Buy YAK Drill Press Today!</p> <img class="yak" src="images/drill-press/press-7.jpg">
+                    <h3>$475.00</h3>
+                    <div class="button">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="4YHM7FVMLGB56">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"> </form>
+                    </div>
+                    <h4>Purchasing a YAK Drill Press includes everything you see in the picture above.</h4> </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p class="copywrite">Prescott, G, inventor; Terracon Industries. Bar clamp / spreader. United States patent 91,156,138 B1. Designed &amp; Coded by <a href="http://www.redlockdev.com">Red Lock Dev.</a></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                document.querySelector('.this-page').style.display = "none";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

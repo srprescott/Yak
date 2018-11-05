@@ -1,0 +1,88 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 70%;
+}
+
+.p-heading {
+    font-size: 3rem;
+    color: #3547E0;
+}
+
+.contact {
+    margin: 0 50px;
+}
+
+.p-body {
+    padding: 25px 25px;
+    margin: 25px 25px;
+    font-size: 1.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.orange {
+    background-color: #ED8C10;
+    color: white;
+}
+
+.blue {
+    background-color: #3547E0;
+    color: white;
+    padding: 25px 25px;
+    margin: 25px 25px;
+    font-size: 1.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+h4 a {
+    color: white;
+}
+
+h3 a {
+    color: white;
+}
+
+h3 a:hover {
+    color: #ED8C10;
+}
+
+.image {
+    height: 50%;
+    width: 50%;
+}
+
+.fa {
+    margin: 15px;
+    color: #ED8C10;
+}

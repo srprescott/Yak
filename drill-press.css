@@ -1,0 +1,77 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 70%;
+}
+
+.p-heading {
+    font-size: 3rem;
+    color: #3547E0;
+}
+
+.p-body {
+    padding: 25px 25px;
+    font-size: 1.8rem;
+}
+
+img {}
+
+
+/* ///////////// VIDEO AREA /////////////// */
+
+.video-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
+}
+
+
+/* ///////////// BUY NOW SECTION /////////////// */
+
+.buy-now {
+    background-color: #ED8C10;
+    color: white;
+    -webkit-box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 20px 0;
+}
+
+.p-heading-two {
+    font-size: 3rem;
+}
+
+.yak {
+    max-width: 90%;
+    -webkit-box-shadow: 2px 2px 2px #29282E;
+    box-shadow: 2px 2px 2px #29282E;
+}
+
+.button {
+    padding: 10px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yak Store</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dust-wall.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <section class="header" id="about">
+                <div class="ban"> <img class="banner" src="images/banner-4.jpg"> </div>
+                <div class="topnav" id="myTopnav"> <a href="index.html">Yak Home</a> <a href="dust-wall.html">Dust Wall</a> <a href="drill-press.html">Drill Press</a> <a href="ex-tool.html">Extention Tool</a> <a href="roll-cleaner.php">Paint Roll Cleaner</a> <a href="contact-us.html">Contact Us</a>
+                    <p class="this-page">Dust Wall</p> <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a> </div>
+            </section>
+            <section class="one">
+                <div class="area-one">
+                    <div class="column">
+                        <div class="intro">
+                            <p class="p-heading">Meet the YAK Dust Wall</p>
+                            <p class="p-body">The YAK Dust Wall works in many difficult wall and ceiling conditions, as you will see here. It works great for door and window replacement, renovation, kitchen remodeling, bathroom remodeling and any other job requiring dust control.</p> <img class="image-one" src="images/dust-wall/one.jpg">
+                            <p class="p-body">With YAK, your Dust Wall can be erected in mere minutes, compared to the hours it typically takes to create a dust wall for your renovation or job site. With a few taps of your foot, your YAK Dust Wall is up and ready to work.</p>
+                        </div>
+                        <div class="">
+                            <p class="p-heading">See YAK Dust Wall in action!</p>
+                            <div class="video-area">
+                                <div class="video">
+                                    <iframe src="https://www.youtube.com/embed/YdC9JVldb-U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <p class="caption"></p>
+                                </div>
+                                <div class="video">
+                                    <iframe src="https://www.youtube.com/embed/0RfO2JHy6Xk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <p class="caption"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                            <p class="p-heading-two">Buy YAK Dust Wall Today!</p> <img class="yak" src="images/dust-wall/product.jpg">
+                            <h3>$399.00</h3>
+                            <div class="button">
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="8EDKD54GHLKCU">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"> </form>
+                            </div>
+                            <h4>Purchasing a YAK Dust Wall includes everything you see in the picture above.</h4> </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p class="copywrite">Prescott, G, inventor; Terracon Industries. Bar clamp / spreader. United States patent 91,156,138 B1. Designed &amp; Coded by <a href="http://www.redlockdev.com">Red Lock Dev.</a></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                document.querySelector('.this-page').style.display = "none";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+        <!-- JS FOR IMAGE SLIDESHOW -->
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
