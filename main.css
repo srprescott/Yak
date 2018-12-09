@@ -3,6 +3,9 @@
     font-family: 'Muli', sans-serif;
 }
 
+
+
+
 .ban {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -122,6 +125,11 @@ footer {
 
 p a {
     color: white;
+}
+
+.fab, .fa{
+    padding: 0;
+    margin: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width:580px) {
