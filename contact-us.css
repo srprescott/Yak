@@ -82,7 +82,7 @@ h3 a:hover {
     width: 50%;
 }
 
-.fa {
+.fa, .fab{
     margin: 15px;
     color: #ED8C10;
 }
