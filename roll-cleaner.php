@@ -51,8 +51,10 @@
                         <p class="p-heading">See YAK Paint Roll Cleaner in action!</p>
                         <div class="video-area">
                             <div class="video">
-                                <iframe src="https://www.youtube.com/embed/N3rlQJpQux4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                <p class="caption">Watch the YAK Paint Roll Cleaner fully clean a large paint roll in just 1 minute!</p>
+                               
+                               <iframe src="https://www.youtube.com/embed/9IaiumNqH18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               
+                                <p class="caption">Watch the YAK Paint Roll Cleaner fully clean a large paint roll in less that 30 seconds!</p>
                             </div>
                             <!-- <div class="video">
                                 <iframe src="https://www.youtube.com/embed/IO1RSLy2Vog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
