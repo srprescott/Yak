@@ -75,20 +75,25 @@
                     <div class="buy-now">
                         <p class="p-heading-two white-text">Find Out When YOU Can Buy the YAK Paint Roll Cleaner!</p> <img class="yak" src="images/roll-cleaner/paint-roll-cleaner-product.jpg" alt="YAK Paint Roll Cleaner">
                         <h4 class="white-text">The YAK Paint Roll Cleaner is not currently being sold. Please enter your name and email address below to receive an email when this product is ready for purchase!</h4>
+                        
+                        
                         <div class="button">
-                            <form method="post">
+                            
+                            <form class="contact-form" action="contactform.php" method="post">
                                 <label class="white-text">Your Name:</label>
-                                <input type="text" name="name" required>
-                                <br>
+                                <input type="text" name="name" placeholder="Full Name">
                                 <label class="white-text">Your Email:</label>
-                                <input type="email" name="email" required>
-                                <br>
+                                <input type="text" name="mail" placeholder="Email">
+                                <label class="white-text">Subject</label>
+                                <input type="text" name="subject" placeholder="Subject">
                                 <label class="white-text">Let Us Know What You Think!</label>
-                                <br>
-                                <textarea name="input"></textarea>
-                                <br>
-                                <input type="submit" value="Submit" onclick="thankYou()"> </form>
+                                <textarea name="message" placeholder="Message"></textarea>
+                                <button class="submit" type="submit" name="submit">Submit</button>
+                            </form>
+
                         </div>
+                        
+                        
                         <div class="thank-you"></div>
                     </div>
                 </section>
@@ -109,23 +114,15 @@
                 }
                 else {
                     x.className = "topnav";
+                    document.querySelector('.this-page').style.display = "block";
                 }
             }
         </script>
     </body>
+    
+    
+
+    
 
     </html>
-    <?php
-
-    $file=fopen("log.txt", "a");
-    fwrite($file, $name);
     
-    fwrite($file, $email);
-
-    fwrite($file, $input);
-
-    fclose($file);
-
-   
-
-?>
