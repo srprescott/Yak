@@ -1,0 +1,215 @@
+
+
+.container {
+    margin-bottom: 50px;
+}
+
+.one, .two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 70%;
+}
+
+
+.area-two {
+    margin: 50px 0 25px 0;
+}
+
+.p-heading {
+    font-size: 3rem;
+    padding: 15px 0;
+    color: #3547E0;
+}
+
+.p-heading-two{
+    padding: 15px 0;
+}
+
+.p-body {
+    padding: 25px 25px;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+.buy-now {
+    background-color: #ED8C10;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.white-text {
+    color: white;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////// VIDEO AREA /////////////// */
+
+.video-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+}
+
+
+.sliderOne{
+    margin-bottom:100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+.mySlides{
+    
+    max-width: 950px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    
+    background-color:#3547E0;
+    z-index: 10;
+    height: 150px;
+    border: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    
+    
+}
+
+.prev{
+    left:0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #2a39b3;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #2a39b3;
+}
+
+
+
+
+
+
+.fade {
+    
+    -webkit-animation: fade 1.5s forwards;
+    animation: fade 1.5s forwards;
+}
+    
+
+@-webkit-keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+

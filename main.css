@@ -141,57 +141,41 @@ p a {
     width: 35px;
 }
 
-@media screen and (min-width: 320px) and (max-width:580px) {
-    #page {}
-}
 
-@media screen and (max-width:959px) {
-    .container-fluid {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-    img {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width:640px) {
-    .container-fluid {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-    img {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width:360px) {
-    .container-fluid {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-    img {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width:320px) {
-    .container-fluid {
-        width: 320px;
-    }
-    body {
-        width: 100%;
-    }
-    img {
-        width: 100%;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* NAVBAR */
@@ -250,3 +234,95 @@ p a {
         font-size: 4em;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {}
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
