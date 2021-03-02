@@ -78,50 +78,20 @@
                         <p class="white-text">$39.95 + Shipping</p>
                         
                         
-                        <!-- PAYPAL BUTTONS -->
-                        <div class="button">
-                            
-                            <div id="smart-button-container">
-                                  <div style="text-align: center;">
-                                    <div id="paypal-button-container"></div>
-                                  </div>
-                                </div>
-                              <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-                              <script>
-                                function initPayPalButton() {
-                                  paypal.Buttons({
-                                    style: {
-                                      shape: 'rect',
-                                      color: 'gold',
-                                      layout: 'vertical',
-                                      label: 'buynow',
-
-                                    },
-
-                                    createOrder: function(data, actions) {
-                                      return actions.order.create({
-                                        purchase_units: [{"description":"Yak Paint Roller Cleaner","amount":{"currency_code":"USD","value":46.94,"breakdown":{"item_total":{"currency_code":"USD","value":39.95},"shipping":{"currency_code":"USD","value":6.99},"tax_total":{"currency_code":"USD","value":0}}}}]
-                                      });
-                                    },
-
-                                    onApprove: function(data, actions) {
-                                      return actions.order.capture().then(function(details) {
-                                        alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                                      });
-                                    },
-
-                                    onError: function(err) {
-                                      console.log(err);
-                                    }
-                                  }).render('#paypal-button-container');
-                                }
-                                initPayPalButton();
-                              </script>
-
+                        
+                        
+                        <div class="paypal-button">
+                            <!-- PAYPAL BUTTONS -->
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="6HPSVKJSTUFP6">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"  class="paypal" >
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
                         </div>
                         
                         
-                        <div class="thank-you"></div>
+                        
                     </div>
                     
 

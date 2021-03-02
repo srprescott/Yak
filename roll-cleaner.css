@@ -88,6 +88,10 @@ iframe {
     color: black;
 }
 
+.paypal-button{
+    margin: 50px;
+}
+
 
 .contact-form{
     display: -webkit-box;

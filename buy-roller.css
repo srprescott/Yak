@@ -52,9 +52,13 @@
     font-size: 3rem;
 }
 
+.paypal-button{
+    margin: 50px;
+}
 
-
-
+.paypal{
+    height:80px;
+}
 
 
 
