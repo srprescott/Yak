@@ -35,14 +35,14 @@
 .p-body {
     padding: 25px 25px;
     font-size: 1.8rem;
+    color: white;
 }
 
 
 
 
-
 .buy-now {
-
+    padding: 10px;
     background-color: #ED8C10;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
@@ -51,6 +51,11 @@
 .white-text {
     color: white;
     font-size: 3rem;
+}
+
+.white-text-sub{
+    color: white;
+    font-size: 2rem;
 }
 
 .paypal-button{
@@ -112,6 +117,7 @@
     -ms-flex-pack: distribute;
     justify-content: space-around;
     margin: 50px 0 50px 0;
+    
 }
 
 .items-image{
@@ -307,17 +313,44 @@ iframe {
 
 
 
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
+textarea{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
+.submit {
+  width: 50%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
 
+button{
+    padding: 20px;
+}
 
-
-
-
-
-
-
-
+.submit:hover {
+  background-color: #F6C482;
+}
 
 
 

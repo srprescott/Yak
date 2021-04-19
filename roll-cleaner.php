@@ -18,6 +18,7 @@
         
         
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="buy-roller.css">
         <link rel="stylesheet" href="roll-cleaner.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
@@ -35,6 +36,7 @@
 
     
     </head>
+        
 
     <body>
         <div class="container">
@@ -46,22 +48,88 @@
                 </section>
                 <section class="one">
                     <div class="area-one">
-                        <div class="intro">
-                            <p class="p-heading">Meet The YAK Paint Roll Cleaner!</p>
-                            <p class="p-body">The YAK Paint Roll Cleaner is a versatile, easy-to-use cleaner for any size paint roll. It will cut your clean up time to a fraction of what you normally spend cleaning up after a painting project. It confines the mess to a small area, and contains any potential splatter mess!</p> 
+                        
+                        
+                        
+                        
+                        
+                    <div class="buy-now">
+                        <p class="p-heading-two white-text">Buy the YAK Paint Roll Cleaner!</p> 
                             
-                            <img class="image" src="images/roll-cleaner/paint-roll-cleaner-3.jpg" alt="YAK Paint Roll Cleaner">
-                            <img class="image" src="images/roll-cleaner/paint-roll-cleaner-2.jpg" alt="YAK Paint Roll Cleaner">
+                        <p class="p-body">The YAK Paint Roll Cleaner is a versatile, easy-to-use cleaner for rollers. It will cut your clean up time to a fraction of what you normally spend cleaning up after a painting project. It confines the mess to a small area, and contains any potential splatter mess!</p> 
                             
-                            <p class="p-body">After a long day of painting, the last thing you want to do is spend hours cleaning your paint rolls for storage. Some people even throw them away to avoid the hassle. Instead, use the YAK Paint Roll Cleaner to clean each paint roll in under two minutes!</p>
+                        <p class="p-body">After a long day of painting, the last thing you want to do is spend hours cleaning your paint rolls for storage. Some people even throw them away to avoid the hassle. Instead, use the YAK Paint Roll Cleaner to clean each paint roll in under two minutes!</p>
+                        <div class="buy-box">
+                            
+                            <section class="slide">
+              
+                               <button class="button prev" onclick="plusDivs(-1)">&#10094;</button>
+
+                               <div class="sliderOne" title="">
+
+                                   <img class="mySlides fade" src="images/roller-cleaner-1.jpeg" alt="">
+                                   <img class="mySlides fade" src="images/roller-cleaner-2.jpeg" alt="" >
+                                   <img class="mySlides fade" src="images/roller-cleaner-3.jpeg" alt="" >
+                                   <img class="mySlides fade" src="images/roller-cleaner-4.jpeg" alt="" >
+                                   
+                               </div>
+                               
+                               <button class="button next" onclick="plusDivs(+1)">&#10095;</button>
+
+                            </section>
+                            <div class="pay-box">
+                                <p class="white-text">Ready to Buy?</p>
+                                <p class="white-text">1 YAK Roller Cover Cleaner = $39.95</p>
+                        
+                        
+                                <div class="paypal-button">
+                                    <!-- PAYPAL BUTTONS -->
+                                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="6HPSVKJSTUFP6">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </form>
+
+                                </div>
+                            </div>
+                            
                         </div>
+
+                        
+                        <div class="items">
+                            <div class="included">
+                               <p class="white-text">What's included?</p>
+                                <img class="items-image" src="images/included.jpg">
+                                <p class="sub-text">Your purchase of the YAK Roller Cover Cleaner includes the YAK Roller Cover Cleaner + One Jet Nozzle. The color and style of the Jet Nozzle may vary.</p>
+                            </div>
+                            
+                            <div class="responsive-spacer"></div>
+                            
+                            <div class="needed">
+                                <p class="white-text">What's needed?</p>
+                                <img class="items-image" src="images/items-needed-2.jpg">
+                                <p class="sub-text">For proper use of the YAK Roller Cover Cleaner, you will need a similar Hose Sprayer and Paint Roller Frame shaped as shown above.</p>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                        
+                        
+                        
+                        
+                        
+                        
+    
                     </div>
                     <div class="area-two">
                         <p class="p-heading">See YAK Paint Roll Cleaner in action!</p>
                         <div class="video-area">
                             <div class="video">
                                
-                               <iframe src="https://www.youtube.com/embed/9IaiumNqH18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               <iframe width="560" height="315" src="https://www.youtube.com/embed/HcT6a-MyiUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                
                                 <p class="caption">Watch the YAK Paint Roll Cleaner fully clean a large paint roll in less that 30 seconds!</p>
                             </div>
@@ -73,20 +141,19 @@
                         </div>
                     </div>
                     <div class="buy-now">
-                        <p class="p-heading-two white-text">Find Out When YOU Can Buy the YAK Paint Roll Cleaner!</p> <img class="yak" src="images/roll-cleaner/paint-roll-cleaner-product.jpg" alt="YAK Paint Roll Cleaner">
-                        <h4 class="white-text">The YAK Paint Roll Cleaner is not currently being sold. Please enter your name and email address below to receive an email when this product is ready for purchase!</h4>
+                        <p class="p-heading-two white-text">Questions? Comments? Reach out!</p> <img class="yak" src="images/roll-cleaner/paint-roll-cleaner-product.jpg" alt="YAK Paint Roll Cleaner">
                         
                         
                         <div class="button">
                             
                             <form class="contact-form" action="contactform.php" method="post">
-                                <label class="white-text">Your Name:</label>
+                                <label class="white-text-sub">Your Name</label>
                                 <input type="text" name="name" placeholder="Full Name">
-                                <label class="white-text">Your Email:</label>
+                                <label class="white-text-sub">Your Email</label>
                                 <input type="text" name="mail" placeholder="Email">
-                                <label class="white-text">Subject</label>
+                                <label class="white-text-sub">Subject</label>
                                 <input type="text" name="subject" placeholder="Subject">
-                                <label class="white-text">Let Us Know What You Think!</label>
+                                <label class="white-text-sub">Let Us Know What You Think!</label>
                                 <textarea name="message" placeholder="Message"></textarea>
                                 <button class="submit" type="submit" name="submit">Submit</button>
                             </form>
@@ -118,6 +185,31 @@
                 }
             }
         </script>
+        
+        
+            <script>
+                
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length} ;
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex-1].style.display = "block";
+                }
+            
+        </script>
+        
+        
     </body>
     
     
