@@ -52,7 +52,8 @@
                         
                         
                         
-                        
+                    <!--   
+                      
                     <div class="buy-now">
                         <p class="p-heading-two white-text">Buy the YAK Paint Roll Cleaner!</p> 
                             
@@ -83,7 +84,7 @@
                         
                         
                                 <div class="paypal-button">
-                                    <!-- PAYPAL BUTTONS -->
+                                    
                                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="6HPSVKJSTUFP6">
@@ -116,8 +117,8 @@
                         
                         
                     </div>
-                        
-                        
+                      
+                     -->     
                         
                         
                         
